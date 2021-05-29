@@ -1,28 +1,40 @@
-The goal of the project was originally to create a simple model that would estimate my 2018 federal tax liability and refund. As I added more features, I realized that the complexity of US tax law meant that to model even my own simple taxes would mean a lot of time and effort. But when I realized how interesting it was to put together all the pieces, I endeavored to create a tool that could calculate all the moving parts of any return. 
+The goal of the project was originally to create a simple model that would estimate my 2018 federal tax liability and refund.
+As I added more features, I realized that the complexity of US tax law meant that to model even my own simple taxes would mean a lot of time and effort. 
+But when I realized how interesting it was to put together all the pieces, I endeavored to create a tool that could calculate all the moving parts of any return.
+ 
 -Saved in this folder is a blank 1040 excel file, along with an example case “Guy Incognito”. 
--Saved in a separate folder are 1040 excel files for all 2020 presidential candidates that have released their 2018 tax returns, the corresponding 1040 pdf they released as part of their bid for office, and a file comparing the outputs for all candidates. 
-Pages of the Model
+-Saved in a separate folder are 1040 excel files for all 2020 presidential candidates that have released their 2018 tax returns (as of 2019/05/04), the 
+corresponding 1040 pdf they released as part of their bid for office, and a file comparing the outputs for all candidates. 
+
+Pages of the Model:
 Home – enter personal information (filing status, overpayment options, date of birth, etc.…)
 	-top right shows all forms and their status (activated or not activated)
 	-expand income, deductions, other taxes, credits menus to show instructions for entering info
 		-some amounts gathered from input forms can be overridden from the home screen
+
 Mapping -Inputs from user go here, then are transferred to summary schedules (keeps data orderly)
+
 1040 -Gathers inputs from other schedules and consolidates to show totals
+
 Sum -Summary Page showing all outputs in order, can be easily compared with outputs of others
+
 Orange Tabs -Enter info from W-2, 1099-INT, 1099-DIV, 1099-MISC, K-1 (1065) as it appears on form
+
 Schedules 1-5 (formerly part of form 1040, but broken into separate schedules in 2018 due to TCAJA)
--Additional income, adjustments to Income, tax, other taxes, credits shown on these schedules. Info taken from inputs on orange tabs and from home page and then output to 1040
+	-Additional income, adjustments to Income, tax, other taxes, credits shown on these schedules. Info taken from inputs on orange tabs and from home page and then output to 1040.
+
 Schedules A-E
 	-Schedule A gathers itemized deductions from home tab, calculates total and compares w. std deduction
 	-Schedule B gathers interest income and dividend income info from 1099s
--Schedule C – multiple schedule C forms in the tab. The first populates with nonemployee compensation from 1099-MISC. The others are reserved for self-reported business income.
+	-Schedule C – multiple schedule C forms in the tab. The first populates with nonemployee compensation from 1099-MISC. The others are reserved for self-reported business income.
 	-Schedule D – must be filled out manually to calculate capital gains/losses
 	-Schedule E – takes supplemental income inputs from 1099s and K-1
+
 Other Schedules/Forms
 	-Schedule SE – calculates self-employment tax based on inputs form SCH C and SCH E
 	-Tax Calculation Forms
--Qualified Dividends and Capital Gain Tax Worksheet 
--Tax Computation Worksheet - for income greater than $100,000
--Tax Table – for income less than $100,000
+	-Qualified Dividends and Capital Gain Tax Worksheet 
+	-Tax Computation Worksheet - for income greater than $100,000
+	-Tax Table – for income less than $100,000
 	-F6251 – Alternative Minimum Tax Calculation
 	-F8889 – Health Savings Account
