@@ -1,7 +1,7 @@
 # 1040_Project
 **Modeling US Individual Income Tax Return in Excel Workbook, Analyzing Presidential Candidate Returns**
 
-Link to [Drive Folder:](https://drive.google.com/drive/u/2/folders/1ZtIlHaZWFQKG-dd0nJMSenU5yyaIhIF1) 
+Link to [Drive Folder](https://drive.google.com/drive/u/2/folders/1ZtIlHaZWFQKG-dd0nJMSenU5yyaIhIF1) 
 
 Files in Repository:
 * Blank 1040 - Excel File Modeling 2018 Income Tax Return 
@@ -15,7 +15,7 @@ Files in Repository:
 
 <br>
 
-2020 Presidential Candidate Return Stats:
+**2020 Presidential Candidate Return Stats**:
 
 Link to [tableau dashboard](https://public.tableau.com/app/profile/scott1352/viz/IncomeTaxes-2020USPresidentialCandidates/Dashboard1)
 
