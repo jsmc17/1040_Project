@@ -15,6 +15,8 @@ Files in Repository:
 
 2020 Presidential Candidate Return Stats:
 
+Link to [tableau dashboard](https://public.tableau.com/app/profile/scott1352/viz/IncomeTaxes-2020USPresidentialCandidates/Dashboard1)
+
 |                     |      |                      |                                          |            |                |                  |                   |
 |:--------------------|:----------|:------------------------|:--------------------------------------------|:-------------|:-----------------|:-------------------|:--------------------|
 | Candidate   | Income    | Business Income or Loss | Rental, real estate, partnership from SCH E | Total Income | Gifts to Charity | Tax  | Effective Tax Rate        |
