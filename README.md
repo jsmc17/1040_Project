@@ -32,3 +32,6 @@ Link to [tableau dashboard](https://public.tableau.com/app/profile/scott1352/viz
 | Kristen Gilldebrand | 167,753  | 50,000           | 0                                         | 214,753     | 0              | 31,831         | 16.2%  |
 | Cory Booker         | 152,715  | 0          | 0                                  | 152,715     | 24,000        | 22,781           | 19.2%  |
 | Pete Buttigeg       | 152,805| 65      | 0                                        | 152,643    | 0              | 20,136 | 15.7% |
+
+
+All returns gathered from [taxnotes.com](https://www.taxnotes.com/presidential-tax-returns)
